@@ -29,3 +29,23 @@ Color Odd List Items
 ul li:nth-child(odd){
     background: seashell;
   }
+
+  /* mouse over link */
+a:hover {
+    color:yellowgreen;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+  a:link {
+    background-color:rgb(173, 70, 158);
+
+  }
+
+  a:hover {
+    background-color: lightgreen;
+  }
+
+  a {border-style: double;}
