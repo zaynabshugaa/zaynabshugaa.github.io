@@ -1,7 +1,16 @@
 body {
-    background-color: blanchedalmond;
+    background-color:blanchedalmond;
     font-family:cursive
 }
+
 body {
     font-size: 18px;
+}
+
+h1, footer {
+    background-color:saddlebrown;
+}
+
+.headingone {
+    color:ghostwhite;
 }
