@@ -17,15 +17,20 @@ body {
     font-size: 1.5cm;
   }
   
+.container {
+width: 60%;
+margin-left: auto;
+margin-right: auto;
+padding: 0;
+}
+
 nav ul li {
     display: inline-block;
-    padding: 1rem;
     background-color: #D8E8E8;
 }
 
 /* Style the navigation menu */
 .navbar {
-    width: 100%;
     background-color: #D8E8E8;
     overflow: auto;
   }
@@ -34,7 +39,6 @@ nav ul li {
 .navbar a {
     float: left;
     padding: 12px;
-    margin-right: 12px;
     color:black;
     text-decoration: none;
     font-size: 17px;
