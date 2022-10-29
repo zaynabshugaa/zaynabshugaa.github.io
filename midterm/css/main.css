@@ -16,12 +16,13 @@ body {
     left: 36%;
     font-size: 1.5cm;
   }
-  
+  /* Container for the body */
 .container {
-width: 60%;
-margin-left: auto;
-margin-right: auto;
-padding: 0;
+  background-color: #D8E8E8;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
 }
 
 nav ul li {
