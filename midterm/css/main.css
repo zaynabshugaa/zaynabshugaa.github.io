@@ -6,11 +6,12 @@ body {
 .container {
     position: relative;
     text-align: center;
-    color: white;
+    color: black;
   }
   
   /* Centered text */
   .centered {
+    color: white;
     position:absolute;
     top: 60%;
     left: 36%;
@@ -47,5 +48,14 @@ nav ul li {
     text-align: center; /* If you want the text to be centered */
   }
 
+  h1 {
+    text-align: left;
+  }
 
+  .left {
+    float: left;
+    padding: 0 20px 20px 0;
+    width: 17rem;
+    height: 17rem;
+   }
   
