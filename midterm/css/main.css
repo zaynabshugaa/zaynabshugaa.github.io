@@ -2,8 +2,9 @@ body {
     font-family:Arial, Helvetica, sans-serif;
     background-color: #aad4cf;
 }
+
  /* Container holding the image and the text */
-.container {
+.head {
     position: relative;
     text-align: center;
     color: black;
@@ -23,7 +24,10 @@ body {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
-  padding: 0;
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
 
 nav ul li {
@@ -58,4 +62,13 @@ nav ul li {
     width: 17rem;
     height: 17rem;
    }
-  
+
+   p {
+    line-height: 1.5;
+  }
+
+   h2 , h2 { 
+    text-align: left;
+   }
+
+
