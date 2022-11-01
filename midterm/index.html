@@ -34,6 +34,7 @@
     </ul>
     <h2>Contact to learn more</h2>
     <form>
+        <div id="box">
         <div>
             <label for="fname">Your Name</label><br>
             <input type="text" id="yn" name="yn"><br>
@@ -44,16 +45,23 @@
         </div>
         <div>
             <label for="lname">Your Message</label><br>
-            <input type="text" id="ym" name="ym">
+            <textarea id="message"></textarea>
         </div>
       </form>
       <p>Would you like to visit the starfish?</p>
-        <label for="Yes">Yes</label><br>
-        <input type="button" id="Yes" name="Yes"><br>
-        <label for="No">No</label><br>
-        <input type="button" id="No" name="No"><br>
-        <label for="Maybe">Maybe</label><br>
-        <input type="button" id="Maybe" name="Maybe"><br>
+        <div>
+            <label for="Yes">Yes</label>
+            <input type="checkbox" id="Yes" name="Yes">
+
+            <label for="No">No</label>
+            <input type="checkbox" id="No" name="No">
+
+            <label for="Maybe">Maybe</label>
+            <input type="checkbox" id="Maybe" name="Maybe">
+        </div>
+        <button type="button">SEND</button>
+    </div>
+    <p id="lonestarfish">@ Lone Starfish.</p>
     </div>
 </body>
 </html>

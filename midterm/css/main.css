@@ -67,8 +67,23 @@ nav ul li {
     line-height: 1.5;
   }
 
+  h1 {
+    font-weight: lighter;
+  }
+
    h2 , h2 { 
     text-align: left;
+    font-weight: lighter;
    }
 
+#box {
+  width: 98%;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 1px;
+}
 
+#lonestarfish {
+  text-align: right;
+  font-size: x-small;
+}
